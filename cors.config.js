@@ -3,7 +3,7 @@ const corsConfig = {
     origin: '*',
     optionsSuccessStatus: 200,
   },
-  allowList: 'http://localhost:4200'
+  allowList: 'http://xanpool-assignment-frontend.s3-website-ap-southeast-1.amazonaws.com/'
 };
 
 corsConfig.api.origin = function (origin, callback) {
