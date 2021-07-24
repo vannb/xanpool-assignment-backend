@@ -3,7 +3,7 @@ const corsConfig = {
     origin: '*',
     optionsSuccessStatus: 200,
   },
-  allowList: 'http://xanpool-assignment-frontend.s3-website-ap-southeast-1.amazonaws.com/'
+  allowList: 'http://ec2-52-221-196-68.ap-southeast-1.compute.amazonaws.com:4200'
 };
 
 corsConfig.api.origin = function (origin, callback) {
